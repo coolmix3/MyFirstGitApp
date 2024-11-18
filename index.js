@@ -3,7 +3,7 @@ function login(username, password) {
     if(username && password){
         console.log(username + ' ' + password);
     }else{
-        console.log('login fail');
+        console.log('>>>> login fail');
     }
 };
 
