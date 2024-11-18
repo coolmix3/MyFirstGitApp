@@ -10,3 +10,7 @@ function logout() {
 function fixBugA(){
     FontFaceSetLoadEvent.log('fixBugA');
 }
+
+function fixBugB(){
+    FontFaceSetLoadEvent.log('fixBugB');
+}
