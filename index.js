@@ -6,3 +6,11 @@ function login(username, password) {
 function logout() {
     console.log('로그아웃');
 }
+
+function fixBugA(){
+    FontFaceSetLoadEvent.log('fixBugA');
+}
+
+function fixBugB(){
+    FontFaceSetLoadEvent.log('fixBugB');
+}
