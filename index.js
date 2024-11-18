@@ -2,6 +2,8 @@
 function login(username, password) {
     if(username){
         console.log(username + ' ' + password);
+    }else if(username && password){
+        console.log(username + ' ' + password);
     }
 };
 
